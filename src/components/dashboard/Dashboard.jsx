@@ -13,7 +13,7 @@ const Dashboard = ({groups}) => {
             {/* {JSON.stringify(props.store.getState())} */}
             {/* {JSON.stringify(groups)} */}
             {/* {groups.map( (e) => <div>{JSON.stringify(e)}</div> )} */}
-            {groups.map( (e) => <Group group={e}/> )}
+            {groups.map( (e, i) => <Group key={i} group={e}/> )}
         </div>
     );
 }
