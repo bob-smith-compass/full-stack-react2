@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import Dashboard from './components/dashboard/Dashboard';
+// import Dashboard from './components/dashboard/Dashboard';
+import ConnectedDashboard from './components/dashboard/Dashboard';
 import { store } from './store/index.js';
 import { Provider } from 'react-redux';
 
@@ -10,7 +11,8 @@ function App() {
     <div>
       <Provider store={store}>
         {/* <Dashboard store={store} /> */}
-        <Dashboard />
+        {/* <Dashboard /> */}
+        <ConnectedDashboard />
       </Provider>
     </div>
   );
