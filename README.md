@@ -18,6 +18,14 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Routing
+
+`npm i react-router-dom`
+
+`<Router>`
+`<Route>`
+`sudo yarn add history`
+
 ## Git
 
 cache credentials
