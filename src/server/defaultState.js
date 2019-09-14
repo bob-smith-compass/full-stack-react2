@@ -8,7 +8,17 @@ export const defaultState = {
             name: "To Do",
             id: "G1",
             owner: "UI"
-        }
+        },
+        {
+            name: "Group 2",
+            id: "G2",
+            owner: "UI"
+        },
+        {
+            name: "Group 3",
+            id: "G3",
+            owner: "DevOps"
+        },
     ],
     tasks: [
         {

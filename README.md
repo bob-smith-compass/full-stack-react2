@@ -16,11 +16,13 @@
 
 `npm i react@16.4.2 react-dom@16.5.0 react-redux@5.0.7`
 
-
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Git
 
+cache credentials
+
+`git config --global credential.helper store`
 
 ## Available Scripts
 

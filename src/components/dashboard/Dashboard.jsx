@@ -1,6 +1,7 @@
 import React from 'react';
 // import { store } from '../../store/index';
 import { connect } from 'react-redux';
+import Group from '../group/Group';
 
 const Dashboard = ({groups}) => {
     
@@ -10,7 +11,9 @@ const Dashboard = ({groups}) => {
             {/* {JSON.stringify(props.store)} */}
             {/* {JSON.stringify(store.getState())} */}
             {/* {JSON.stringify(props.store.getState())} */}
-            {JSON.stringify(groups)}
+            {/* {JSON.stringify(groups)} */}
+            {/* {groups.map( (e) => <div>{JSON.stringify(e)}</div> )} */}
+            {groups.map( (e) => <Group group={e}/> )}
         </div>
     );
 }
