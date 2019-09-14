@@ -10,7 +10,7 @@ function App() {
     <div>
       <Provider store={store}>
         {/* <Dashboard store={store} /> */}
-        <Dashboard store={store} />
+        <Dashboard />
       </Provider>
     </div>
   );
