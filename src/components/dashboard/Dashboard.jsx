@@ -1,5 +1,5 @@
 import React from 'react';
-import { store } from '../../store/index';
+// import { store } from '../../store/index';
 
 const Dashboard = (props) => {
     
@@ -7,7 +7,8 @@ const Dashboard = (props) => {
         <div>
             <h3>Dashboard</h3>
             {/* {JSON.stringify(props.store)} */}
-            {JSON.stringify(store.getState())}
+            {/* {JSON.stringify(store.getState())} */}
+            {JSON.stringify(props.store.getState())}
         </div>
     );
 }

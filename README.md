@@ -1,4 +1,26 @@
+# Full Stack
+
+## Webpack
+
+`npm i webpack webpack-cli webpack-dev-server`
+
+## Babel
+
+`npm i @babel/node@7.0.0 @babel/preset-env@7.0.0 @babel/preset-react@7.0.0 @babel/register@7.0.0`
+
+## GitHub generate SSH key
+
+`ssh-keygen`
+
+## State
+
+`npm i react@16.4.2 react-dom@16.5.0 react-redux@5.0.7`
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+
 
 ## Available Scripts
 
