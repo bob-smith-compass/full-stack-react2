@@ -7,6 +7,7 @@ import { store } from './store/index.js';
 import { Provider } from 'react-redux';
 import { Router, Route } from 'react-router-dom';
 import { history } from './store/history';
+import ConnectedNav from './components/navigator/Nav';
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
     <div>
       <Router history={history}>
         <Provider store={store}>
+          <ConnectedNav />
           {/* <Dashboard store={store} /> */}
           {/* <Dashboard /> */}
           <Route exact path="/" render={() => (<h3>Home</h3>)} />
